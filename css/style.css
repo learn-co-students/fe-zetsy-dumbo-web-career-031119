@@ -4,10 +4,45 @@
 
 /*////////// Global Styles //////////*/
 
+h1{
+	font-size: 5em;
+	padding: 0;
+	margin: 0 0 4px 0;
+	color: rgb(152, 173, 166);
+	border-bottom: 1px solid rgb(152, 173, 166);
+}
+
+p{
+	color: rgb(101,101,101);
+}
+
+h1:hover{
+	color: rgb(111,127,122);
+}
+
+h2{
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+img{
+	border: 5px solid rgb(204,204,204);
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+}
+
+#copy{
+	font-size: .75em;
+	text-align: right;
+	padding: 1em;
+}
+
+#bigImg{
+	border: 5px solid rgb(152, 173, 166);
 }
 
 .wrapper {
